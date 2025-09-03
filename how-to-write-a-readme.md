@@ -1,16 +1,9 @@
-# How to write a readme
-This file gives instruction and examples on writing readme files for github respositories.
-
-## examples of well-written READMEs:
-* https://github.com/bcicen/slackcat
-* https://github.com/gsamokovarov/jump
-* https://github.com/rafaelrinaldi/whereami
 
 ## general template
 
-Name of project (big header, like H1)
+Is a Hot Dog a Sandwich? (big header, like H1)
 
-One sentence description of what it does, two sentences at most. If you have screenshots of your thing running or of its output, put them here.
+In this project we analyze whether a hot dog is a sandwich or not. We collected data from Undergraduates at UVA and analyzed it using Python.
 
 Installation/Building (H2)
 
