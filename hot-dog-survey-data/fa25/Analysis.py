@@ -58,3 +58,10 @@ def bootstrap_proportion(data, n_boot=1000):
 year_data = df.loc[df["Year"] == 2020, "Yes_binary"].values
 ci = bootstrap_proportion(year_data)
 print("Bootstrap 95% CI for 2020:", ci)
+
+
+#Diagnostic Plot
+sns.set_style("whitegrid")
+sns.pairplot(df[["Year", "Yes_binary", "Male_binary"]], hue="Male_binary", markers=["o", "s"], palette="Set2")
+plt.show()
+
